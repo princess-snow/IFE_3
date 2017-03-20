@@ -1,0 +1,50 @@
+html,body,.container,.left,.right,.center,.Logo{
+    margin: 0;
+    padding: 0;
+}
+body,.left,.center,.container,.right{
+    padding: 20px;
+    border:1px solid #999;
+}
+.container{
+    background-color: #eee;
+
+}
+.left,.center,.right{
+    background-color: #fff;
+    display: inline-block;
+}
+.left{
+    width: 160px;
+    height:auto;
+    float: left;
+}
+.Logo{
+    width:80px;
+    height:80px;
+    display: inline-block;
+    float: left;
+}
+.teamName{
+    display: inline-block;
+    width: 80px;
+    height:80px;
+    float: left;
+    line-height: 80px;
+    text-indent: 0.5em;
+    font-family: "微软雅黑";
+}
+.right{
+    width:80px;
+    float: right;
+}
+.right img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.center{
+    width: 65%;
+    height:500px;
+    overflow: scroll;
+    margin:0 20px 0 20px;
+}
